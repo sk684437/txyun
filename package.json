@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "scripts": {
+    "check": "node --check node-functions/_websocket.js",
+    "deploy": "./deploy.sh"
+  },
+  "dependencies": {
+    "ws": "^8.20.0"
+  }
+}
